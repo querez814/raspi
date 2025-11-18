@@ -1,0 +1,109 @@
+tudent2@PiStudent2:~/zaki $ git add myinfo.txt mytemp.txt
+student8@PiStudent8:~/zaki $ git push origin myinfomytxt
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'myinfomytxt' on GitHub by visiting:
+remote:      https://github.com/querez814/raspi/pull/new/myinfomytxt
+remote: 
+To https://github.com/querez814/raspi.git
+ * [new branch]      myinfomytxt -> myinfomytxt
+student8@PiStudent8:~/zaki $ git switch main
+D       dev1.txt
+A       myinfo.txt
+A       mytemp.txt
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+student8@PiStudent8:~/zaki $ git merge dev1
+Already up to date.
+student8@PiStudent8:~/zaki $ git push
+Everything up-to-date
+student8@PiStudent8:~/zaki $ git merge myinfomytexrt
+merge: myinfomytexrt - not something we can merge
+student8@PiStudent8:~/zaki $ git merge myinfomytext
+merge: myinfomytext - not something we can merge
+student8@PiStudent8:~/zaki $ git fetch origin
+student8@PiStudent8:~/zaki $ git switch myinfomytxt || git switch -c myinfomytxt origin/myinfomytxt
+D       dev1.txt
+A       myinfo.txt
+A       mytemp.txt
+Switched to branch 'myinfomytxt'
+student8@PiStudent8:~/zaki $ git switch main
+D       dev1.txt
+A       myinfo.txt
+A       mytemp.txt
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+student8@PiStudent8:~/zaki $ git merge dev1
+Already up to date.
+student8@PiStudent8:~/zaki $ git push
+Everything up-to-date
+student8@PiStudent8:~/zaki $ git merge myinfomytxt
+git push
+Already up to date.
+Everything up-to-date
+student8@PiStudent8:~/zaki $ git branch -a
+git log --oneline --graph --all | head -20
+  dev1
+* main
+  myinfomytxtudent2@PiStudent2:~/zaki $ git add myinfo.txt mytemp.txt
+student8@PiStudent8:~/zaki $ git push origin myinfomytxt
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'myinfomytxt' on GitHub by visiting:
+remote:      https://github.com/querez814/raspi/pull/new/myinfomytxt
+remote: 
+To https://github.com/querez814/raspi.git
+ * [new branch]      myinfomytxt -> myinfomytxt
+student8@PiStudent8:~/zaki $ git switch main
+D       dev1.txt
+A       myinfo.txt
+A       mytemp.txt
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+student8@PiStudent8:~/zaki $ git merge dev1
+Already up to date.
+student8@PiStudent8:~/zaki $ git push
+Everything up-to-date
+student8@PiStudent8:~/zaki $ git merge myinfomytexrt
+merge: myinfomytexrt - not something we can merge
+student8@PiStudent8:~/zaki $ git merge myinfomytext
+merge: myinfomytext - not something we can merge
+student8@PiStudent8:~/zaki $ git fetch origin
+student8@PiStudent8:~/zaki $ git switch myinfomytxt || git switch -c myinfomytxt origin/myinfomytxt
+D       dev1.txt
+A       myinfo.txt
+A       mytemp.txt
+Switched to branch 'myinfomytxt'
+student8@PiStudent8:~/zaki $ git switch main
+D       dev1.txt
+A       myinfo.txt
+A       mytemp.txt
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+student8@PiStudent8:~/zaki $ git merge dev1
+Already up to date.
+student8@PiStudent8:~/zaki $ git push
+Everything up-to-date
+student8@PiStudent8:~/zaki $ git merge myinfomytxt
+git push
+Already up to date.
+Everything up-to-date
+student8@PiStudent8:~/zaki $ git branch -a
+git log --oneline --graph --all | head -20
+  dev1
+* main
+  myinfomytxt
+  remotes/origin/dev1
+  remotes/origin/main
+  remotes/origin/myinfomytxt
+* 40ca62d user 2 upload
+* d3af2d0 dev 1.txt upload
+* d763d00 first commit
+student8@PiStudent8:~/zaki $ t
+  remotes/origin/dev1
+  remotes/origin/main
+  remotes/origin/myinfomytxt
+* 40ca62d user 2 upload
+* d3af2d0 dev 1.txt upload
+* d763d00 first commit
+student8@PiStudent8:~/zaki $ 
